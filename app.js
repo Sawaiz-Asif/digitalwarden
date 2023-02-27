@@ -8,7 +8,7 @@ const { default: mongoose } = require('mongoose');
 const VidoeRouter =require('./Router/Video');
 const cors = require('cors');
 const morgan = require('morgan');
-require('dotenv/config');
+require('dotenv/config'); 
 //MIddle ware
 app.use(BodyParser.json());
 app.use(cors());
